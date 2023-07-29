@@ -13,8 +13,14 @@ class SpringBootRestApiApplicationTests {
 	
 	@Test
 	void contextLoads() {
-		logger.info("Test Case1 Passed");
+		logger.info("Test Case1");
 		Assertions.assertTrue(true);
+	}
+	
+	@Test
+	void contextLoads1() {
+		logger.info("Test Case2");
+		Assertions.assertTrue(false);
 	}
 
 }
